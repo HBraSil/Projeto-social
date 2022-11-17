@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    position: relative;
+}
+
+.celular {
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 650px;
+    min-width: 310px;
+}
+
